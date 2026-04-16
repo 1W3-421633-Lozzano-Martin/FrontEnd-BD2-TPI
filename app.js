@@ -1,7 +1,7 @@
 const PROTOCOL = window.location.protocol === 'https:' ? 'https:' : 'http:';
 const HOST = window.location.host;
-const API_URL = `${PROTOCOL}//${HOST}/api`;
-const SIGNALR_URL = `${PROTOCOL}//${HOST}/chatHub`;
+const API_URL = `https://bd2-tpi.onrender.com/api`;
+const SIGNALR_URL = `https://bd2-tpi.onrender.com/chatHub`;
 
 class WatchPartyApp {
     constructor() {
